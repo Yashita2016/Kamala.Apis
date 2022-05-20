@@ -2,9 +2,9 @@
 
 namespace Contract.Models
 {
-    public class Expense
+    public class ExpenseDto
     {
-        public Type ExpenseType { get; set; }
+        public TypeDto ExpenseType { get; set; }
         public decimal Amount { get; set; }
         public DateTime Date { get; set; }
     }

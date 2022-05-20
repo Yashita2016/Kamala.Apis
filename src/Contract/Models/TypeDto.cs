@@ -1,6 +1,6 @@
 ﻿namespace Contract.Models
 {
-    public class Type
+    public class TypeDto
     {
         public string Name { get; set; }
     }

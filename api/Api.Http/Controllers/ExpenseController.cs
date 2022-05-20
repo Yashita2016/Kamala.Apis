@@ -9,7 +9,7 @@ namespace Api.Http.Controllers
     public class ExpenseController : ControllerBase
     {
         [HttpPost("")]
-        public ActionResult Create(Expense expense)
+        public ActionResult Create(ExpenseDto expense)
         {
             if (expense is null)
             {

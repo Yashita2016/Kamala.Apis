@@ -4,11 +4,11 @@ namespace Contract.Models
 {
     public class CreateExpenseInput
     {
-        public CreateExpenseInput(IList<Expense> expenses)
+        public CreateExpenseInput(IList<ExpenseDto> expenses)
         {
             Expenses = expenses;
         }
 
-        public IList<Expense> Expenses { get; }
+        public IList<ExpenseDto> Expenses { get; }
     }
 }
