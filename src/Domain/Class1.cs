@@ -1,8 +1,15 @@
-﻿using System;
+﻿using Contract;
+using Contract.Models;
+using System;
+using System.Threading.Tasks;
 
 namespace Domain
 {
-    public class Class1
+    public class ExpenseService : IExpenseService
     {
+        public Task Create(CreateExpenseInput expenseInput)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
